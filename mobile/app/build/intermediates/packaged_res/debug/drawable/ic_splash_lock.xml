@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lock icon matching the home screen header: white lock on PrimaryBlue (#1565C0) background -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Blue rounded background -->
+    <path
+        android:pathData="M18,18 L90,18 Q90,18 90,18 L90,90 Q90,90 90,90 L18,90 Q18,90 18,90 L18,18 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- White lock body (rounded rectangle) -->
+    <path
+        android:pathData="M38,52 Q38,48 42,48 L66,48 Q70,48 70,52 L70,72 Q70,76 66,76 L42,76 Q38,76 38,72 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- White lock shackle (arc) -->
+    <path
+        android:pathData="M44,48 L44,40 Q44,32 54,32 Q64,32 64,40 L64,48"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Keyhole circle -->
+    <path
+        android:pathData="M54,60 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#1565C0" />
+
+    <!-- Keyhole stem -->
+    <path
+        android:pathData="M52,64 L56,64 L55,70 L53,70 Z"
+        android:fillColor="#1565C0" />
+</vector>

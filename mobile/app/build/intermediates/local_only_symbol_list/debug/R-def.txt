@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color ic_launcher_background
+color ic_launcher_foreground
+color primary
+color white
+drawable ic_splash_lock
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.SmartLockApp
+style Theme.SmartLockApp.NoActionBar
+style Theme.SmartLockApp.Starting

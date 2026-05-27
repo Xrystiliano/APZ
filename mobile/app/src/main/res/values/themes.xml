@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartLockApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.SmartLockApp.NoActionBar" parent="Theme.SmartLockApp" />
+
+    <!-- Splash screen theme -->
+    <style name="Theme.SmartLockApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_lock</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/primary</item>
+        <item name="postSplashScreenTheme">@style/Theme.SmartLockApp.NoActionBar</item>
+    </style>
+</resources>
